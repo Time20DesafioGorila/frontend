@@ -7,7 +7,7 @@
 
 
 ## 💻 Projeto
-<p>Solucionar os problemas dos Corretores de Seguro.</p>
+<p>Solucionar os problemas dos Consultores Financeiros.</p>
 
 ## 💻 Tecnologias
 
@@ -23,4 +23,4 @@ Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/CB
 
 ---
 
-Feito pelo Time : :wave:
+Feito pelo Time 20: :wave:
