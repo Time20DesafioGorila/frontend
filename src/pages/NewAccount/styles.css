@@ -1,0 +1,76 @@
+.newaccount{
+  margin-left: auto;
+  margin-right: auto;
+}
+.newaccount h1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  color: #00FFFF;
+  margin-top: 50px;
+}
+.newaccount input{
+  width: 350px;
+  height: 45.29px;
+  background: rgba(21, 194, 194, 0.18);
+  border-radius: 22.6449px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #00FFFF;
+  margin: 0;
+}
+.newaccount button{
+  width: 100%;
+  max-width: 350px;
+  height: 45.29px;
+  background: #15C2C2;
+  box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.147481);
+  border-radius: 22.6449px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.newaccount p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-top: 20px;
+
+}
+.newaccount label{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00FFFF;
+  margin: 0;
+
+}
+.teste-new{
+  background: url('../../assets/meio-circulo-azul.png')top left,
+  url('../../assets/meio-circulo-amarelo-vermelho.png') top right;
+  background-repeat: no-repeat;
+  background-position-y: 6em;
+}
+@media (max-width: 1357px) {
+  .teste-new{
+    background-image: none;
+  }
+
+}
+

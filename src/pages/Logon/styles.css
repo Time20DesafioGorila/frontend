@@ -1,0 +1,75 @@
+.home{
+  margin-left: auto;
+  margin-right: auto;
+}
+.home h1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  color: #00FFFF;
+  margin-top: 150px;
+}
+.home input{
+  width: 350px;
+  height: 45.29px;
+  background: rgba(21, 194, 194, 0.18);
+  border-radius: 22.6449px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #00FFFF;
+}
+.home button{
+  width: 100%;
+  max-width: 350px;
+  height: 45.29px;
+  background: #15C2C2;
+  box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.147481);
+  border-radius: 22.6449px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 15px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.home p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top: 20px;
+
+
+}
+.home label{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00FFFF;
+
+}
+
+.teste-logon{
+  background-image: url('../../assets/circulo.png');
+  background-repeat: no-repeat;
+  background-position-y: -5.5cm;
+  background-position-x: 4.5cm;
+}
+@media (max-width: 1357px) {
+  .teste-logon{
+    background-image: none;
+  }
+
+}
