@@ -12,23 +12,23 @@ export default function NewAccount () {
             <div className='col'>
               <h1>Crie sua conta</h1>
               <form>
-                <label for='nome'>Nome</label><br />
+                <label Htmlfor='nome'>Nome</label><br />
                 <div className='form-group d-flex justify-content-center'>
                   <input type='text' className='form-control' id='nome' />
                 </div>
-                <label for='email'>Email</label><br />
+                <label Htmlfor='email'>Email</label><br />
                 <div className='form-group d-flex justify-content-center'>
                   <input type='email' className='form-control' id='email' required />
                 </div>
-                <label for='email'>Número Celular</label><br />
+                <label Htmlfor='email'>Número Celular</label><br />
                 <div className='form-group d-flex justify-content-center'>
                   <input type='tel' className='form-control' pattern='[0-9]{3}-[0-9]{2}-[0-9]{3}' />
                 </div>
-                <label for='password'>Password</label><br />
+                <label Htmlfor='password'>Password</label><br />
                 <div className='form-group d-flex justify-content-center'>
                   <input type='password' className='form-control' />
                 </div>
-                <label for='password_confirm'>Confirme o Password</label><br />
+                <label Htmlfor='password_confirm'>Confirme o Password</label><br />
                 <div className='form-group d-flex justify-content-center'>
                   <input type='password' className='form-control' id='password_confirm' />
                 </div>

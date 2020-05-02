@@ -12,24 +12,24 @@ export default function Office() {
   return (
     <div className='teste-office'>
       <div className='container fluid'>
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Menu</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <img src={menuImg} class="navbar-toggler-icon"/>
+        <nav className="navbar navbar-expand-lg">
+          <a className="navbar-brand" href="#">Menu</a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src={menuImg} className="navbar-toggler-icon"/>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Perfil<span class="sr-only">(current)</span></a>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="#">Perfil<span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Desafios</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Desafios</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ranking</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Ranking</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Indique Amigos</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Indique Amigos</a>
               </li>
             </ul>
           </div>
