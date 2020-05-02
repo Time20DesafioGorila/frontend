@@ -1,9 +1,8 @@
 <h1 align="center">
-    <img title="#Gr1d Hackthon" src="./src/assets/gr1d.jpg" width="800px" />
 </h1>
 
 <h4 align="center"> 
-	:construction: Gr1d hackathon :construction:
+	:construction: Mega Hack :construction:
 </h4>
 
 
@@ -19,9 +18,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/NS42Q1VhE3enu4FN2SsFwb/Corretor?node-id=12%3A348).
+Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/CB66k1Beh6fX7uLjH7D14y/Gorila?node-id=157%3A305).
 
 
 ---
 
-Feito pelo Time 9: :wave:
+Feito pelo Time : :wave:
