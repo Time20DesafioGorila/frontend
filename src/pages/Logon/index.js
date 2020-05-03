@@ -13,11 +13,11 @@ export default function Logon () {
             <div className='col'>
               <h1 className='text-center'>Logon:</h1>
               <form className=''>
-                <label for='email'>Email</label><br />
+                <label Htmlfor='email'>Email</label><br />
                 <div className='form-group d-flex justify-content-center'>
                   <input type='email' className='form-control' id='email' />
                 </div>
-                <label for='password'>Senha</label><br />
+                <label Htmlfor='password'>Senha</label><br />
                 <div className='form-group d-flex justify-content-center'>
                   <input type='password' className='form-control' id='password' />
                 </div>
