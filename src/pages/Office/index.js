@@ -42,7 +42,7 @@ export default function Office() {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link to='/suitability'>
+                <Link to='/suitabilityresult'>
                   <a class="nav-link">Suitability</a>
                 </Link>
               </li>
@@ -89,9 +89,6 @@ export default function Office() {
               </tbody>
             </table>
           </div>
-          <Link>
-            <button type='submit' className='btn'>ATUALIZAR</button>
-          </Link>
           <div className='row'>
             <div className='col'>
               <Link to='/graphic'>

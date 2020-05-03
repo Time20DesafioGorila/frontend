@@ -5,9 +5,9 @@ import menuImg from '../../assets/menu.png'
 
 import './styles.css'
 
-export default function Suitabilityresult() {
+export default function Addinvest() {
   return (
-    <div className='teste-suitabilityresult'>
+    <div className='teste-addinvest'>
       <div className='container fluid'>
         <nav class="navbar navbar-expand-lg">
           <Link to='/office'>
@@ -47,17 +47,41 @@ export default function Suitabilityresult() {
           </div>
         </nav>
 
-        <div className='suitabilityresult text-center'>
-          <p>Seu perfil é:</p>
-          <h1>Conservador</h1>
-          <p>Esse tipo de investidor prioriza a segurança em suas aplicações.</p>
-          <p>Em sua diversificação de investimentos, o conservador deve manter <br /> a maior parte da sua carteira de investimentos em produtos de baixo risco.</p>
-          <h1>Investimentos para seu perfil</h1>
-          <p>Tesouro Direto<br /> CDB<br /> LC<br /> LCI/LCA<br /> Fundos de renda fixa</p>
-          <p>Refazer o teste:</p>
-          <Link to='/suitability'>
-            <button type='submit' className='btn'>teste de perfil de investidor</button>
-          </Link>
+        <div className='addinvest text-center'>
+          <h1 className='text-center'>Adicionar Investimento</h1>
+          <form>
+            <div className='row'>
+              <div className='col-sm'>
+                <label Htmlfor='produto'>Produto</label><br />
+                <div className='form-group d-flex justify-content-center'>
+                  <input type='text' className='form-control' id='produto' />
+                </div>
+              </div>
+              <div className='col-sm'>
+                <label Htmlfor='quant'>Quantidade</label><br />
+                <div className='form-group d-flex justify-content-center'>
+                  <input type='text' className='form-control' id='quant' />
+                </div>
+              </div>
+            </div>
+            <div className='row'>
+              <div className='col-sm'>
+                <label Htmlfor='preco'>Preço</label><br />
+                <div className='form-group d-flex justify-content-center'>
+                  <input type='text' className='form-control' id='preco' />
+                </div>
+              </div>
+              <div className='col-sm'>
+                <label Htmlfor='preco'>Data da Compra</label><br />
+                <div className='form-group d-flex justify-content-center'>
+                  <input type='date' className='form-control' id='preco' />
+                </div>
+              </div>
+            </div>
+            <Link to='/office'>
+              <button className='btn'>Salvar</button>
+            </Link>
+          </form>
         </div>
       </div>
     </div>

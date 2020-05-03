@@ -43,7 +43,7 @@ export default function Graphic() {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link to='/suitability'>
+                <Link to='/suitabilityresult'>
                   <a class="nav-link">Suitability</a>
                 </Link>
               </li>

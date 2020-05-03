@@ -18,6 +18,8 @@ import Question7Suitability from './pages/Question7Suitability'
 import Question8Suitability from './pages/Question8Suitability'
 import Question9Suitability from './pages/Question9Suitability'
 import Suitabilityresult from './pages/Suitabilityresult'
+import Addinvest from './pages/Addinvest'
+import Ranking from './pages/Ranking'
 
 export default function Routes () {
   return (
@@ -40,6 +42,8 @@ export default function Routes () {
         <Route path='/question-8-suitability' component={Question8Suitability} />
         <Route path='/question-9-suitability' component={Question9Suitability} />
         <Route path='/suitabilityresult' component={Suitabilityresult} />
+        <Route path='/addinvest' component={Addinvest} />
+        <Route path='/ranking' component={Ranking} />
       </Switch>
     </BrowserRouter>
   )
