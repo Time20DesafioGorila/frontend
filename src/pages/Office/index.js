@@ -12,24 +12,39 @@ export default function Office() {
   return (
     <div className='teste-office'>
       <div className='container fluid'>
-        <nav className="navbar navbar-expand-lg">
-          <a className="navbar-brand" href="#">Menu</a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <img src={menuImg} className="navbar-toggler-icon"/>
+        <nav class="navbar navbar-expand-lg">
+          <Link to='/office'>
+            <a class="navbar-brand">You invest</a>
+          </Link>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src={menuImg} class="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link" href="#">Perfil<span className="sr-only">(current)</span></a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <Link to='/office'>
+                  <a class="nav-link">Perfil<span class="sr-only">(current)</span></a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Desafios</a>
+              <li class="nav-item">
+                <Link to='/desafios'>
+                  <a class="nav-link">Desafios</a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Ranking</a>
+              <li class="nav-item">
+                <Link to='/matrix'>
+                  <a class="nav-link">Ranking</a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Indique Amigos</a>
+              <li class="nav-item">
+                <Link to='/friends'>
+                  <a class="nav-link">Indique Amigos</a>
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link to='/suitability'>
+                  <a class="nav-link">Suitability</a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -37,13 +52,13 @@ export default function Office() {
 
         <div className='office text-center'>
           <h1>Olá João,</h1>
-          <h2>Adicionar Investimento</h2>
+          <h2>Investimentos</h2>
           <div className='table-responsive-xl'>
             <table className='table'>
               <thead>
                 <tr>
-                  <th scope='col'>OPÇÔES</th>
-                  <th scope='col'>Qnt</th>
+                  <th scope='col'>Nome</th>
+                  <th scope='col'>Quant.</th>
                   <th scope='col'>Preço</th>
                   <th scope='col'>Total</th>
                   <th scope='col'>Rentabilidade</th>
@@ -51,44 +66,50 @@ export default function Office() {
               </thead>
               <tbody>
                 <tr>
-                  <th scope='row'>RENDA VÁRIAVEL</th>
-                  <th scope='col'>2</th>
-                  <th scope='col'>R$ 85,85</th>
-                  <th scope='col'>R$ 171,7‬</th>
+                  <th scope='row'>BOVA11</th>
+                  <th scope='col'>1</th>
+                  <th scope='col'>R$ 77,21</th>
+                  <th scope='col'>R$ 77,21</th>
                   <th scope='col' className='color-table-verde'>+ 20%</th>
                 </tr>
                 <tr>
-                  <th scope='row'>FUNDO IMOBILIARIO</th>
-                  <th scope='col'>2</th>
-                  <th scope='col'>R$ 85,85</th>
-                  <th scope='col'>R$ 171,7‬</th>
+                  <th scope='row'>BCFF11 - FII BC FFII</th>
+                  <th scope='col'>5</th>
+                  <th scope='col'>R$ 85,13</th>
+                  <th scope='col'>R$ 425,65‬</th>
                   <th scope='col' className='color-table-verde'>+ 15%</th>
                 </tr>
                 <tr>
                   <th scope='row'>POUPANÇA</th>
-                  <th scope='col'>2</th>
+                  <th scope='col'>1</th>
                   <th scope='col'>R$ 85,85</th>
-                  <th scope='col'>R$ 171,7‬</th>
+                  <th scope='col'>R$ 85,85‬</th>
                   <th scope='col' className='color-table-vermelho'>- 40%</th>
                 </tr>
               </tbody>
             </table>
           </div>
-          <Link to='/graphic'>
+          <Link>
             <button type='submit' className='btn'>ATUALIZAR</button>
           </Link>
           <div className='row'>
             <div className='col'>
-              <img src={docImg} className='img-fluid' />
-              <p>Carteira</p>
+              <Link to='/graphic'>
+                <img src={docImg} className='img-fluid' />
+                <p>Gráfico da Carteira</p>
+              </Link>
             </div>
             <div className='col'>
-              <img src={coracaoImg} className='img-fluid' />
-              <p>+ ou -</p>
+              <Link to='/addinvest'>
+                <img src={coracaoImg} className='img-fluid' />
+                <p>Adicionar Investimento</p>
+              </Link>
             </div>
             <div className='col'>
-              <img src={trofeuImg} className='img-fluid' />
-              <p>Competição</p>
+              <Link to='/matrix'>
+                <img src={trofeuImg} className='img-fluid' />
+                <p>Ranking</p>
+              </Link>
             </div>
           </div>
         </div>
