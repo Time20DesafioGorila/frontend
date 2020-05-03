@@ -2,12 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import menuImg from '../../assets/menu.png'
+import facebookimg from '../../assets/facebook.png'
+import twitterimg from '../../assets/twitter.png'
+import instagramimg from '../../assets/instagram.png'
 
 import './styles.css'
 
-export default function Suitabilityresult() {
+export default function Friends() {
   return (
-    <div className='teste-suitabilityresult'>
+    <div className='teste-friends'>
       <div className='container fluid'>
         <nav class="navbar navbar-expand-lg">
           <Link to='/office'>
@@ -42,17 +45,29 @@ export default function Suitabilityresult() {
           </div>
         </nav>
 
-        <div className='suitabilityresult text-center'>
-          <p>Seu perfil é:</p>
-          <h1>Conservador</h1>
-          <p>Esse tipo de investidor prioriza a segurança em suas aplicações.</p>
-          <p>Em sua diversificação de investimentos, o conservador deve manter <br /> a maior parte da sua carteira de investimentos em produtos de baixo risco.</p>
-          <h1>Investimentos para seu perfil</h1>
-          <p>Tesouro Direto<br /> CDB<br /> LC<br /> LCI/LCA<br /> Fundos de renda fixa</p>
-          <p>Refazer o teste:</p>
-          <Link to='/question-1-suitability'>
-            <button type='submit' className='btn'>COMEÇAR</button>
-          </Link>
+        <div className='friends text-center'>
+          <h1 className='text-center'>Indique Amigos através das redes sociais!</h1>
+          <div className='row'>
+            <div className='col'>
+              <a href="https://www.facebook.com/">
+                <img src={facebookimg} className='img-fluid' />
+              </a>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <a href="https://twitter.com/explore">
+                <img src={twitterimg} className='img-fluid' />
+              </a>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <a href="https://www.instagram.com/">
+                <img src={instagramimg} className='img-fluid' />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

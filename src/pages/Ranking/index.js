@@ -24,12 +24,7 @@ export default function Ranking() {
             <ul class="navbar-nav">
               <li class="nav-item">
                 <Link to='/office'>
-                  <a class="nav-link">Perfil<span class="sr-only">(current)</span></a>
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link to='/desafios'>
-                  <a class="nav-link">Desafios</a>
+                  <a class="nav-link">Home<span class="sr-only">(current)</span></a>
                 </Link>
               </li>
               <li class="nav-item">

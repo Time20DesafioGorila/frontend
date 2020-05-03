@@ -20,6 +20,7 @@ import Question9Suitability from './pages/Question9Suitability'
 import Suitabilityresult from './pages/Suitabilityresult'
 import Addinvest from './pages/Addinvest'
 import Ranking from './pages/Ranking'
+import Friends from './pages/Friends'
 
 export default function Routes () {
   return (
@@ -44,6 +45,7 @@ export default function Routes () {
         <Route path='/suitabilityresult' component={Suitabilityresult} />
         <Route path='/addinvest' component={Addinvest} />
         <Route path='/ranking' component={Ranking} />
+        <Route path='/friends' component={Friends} />
       </Switch>
     </BrowserRouter>
   )
