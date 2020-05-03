@@ -2,13 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import menuImg from '../../assets/menu.png'
-import morpheusImg from '../../assets/matrix-morpheus.png'
+import objetivoImg from '../../assets/objetivo.png'
+import { ProgressBar } from 'react-bootstrap'
 
 import './styles.css'
 
-export default function Matrix() {
+export default function Question() {
+  const now = 50
   return (
-    <div className='teste-matrix'>
+    <div className='teste-question'>
       <div className='container fluid'>
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="#">Menu</a>
@@ -33,20 +35,22 @@ export default function Matrix() {
           </div>
         </nav>
 
-        <div className='matrix text-center'>
-          <h1>Quer participar do ranking de investidores?</h1>
-          <div className='row'>
-            <div className='col align-self-center'>
-              <button type='submit' className='btn colorv'>SIM</button>
+        <div className='question text-center'>
+          <p>Perfil de Investidor</p>
+          <img src={objetivoImg} className='img-fluid' />
+          <h2>Caso as suas aplicações sofressem uma queda superior a 30%, o que você faria? </h2>
+          <div className="row">
+            <div className="col-sm">
+              <button className='btn'>Resgataria toda a aplicação.</button>
             </div>
-            <div className='col align-self-center'>
-              <img src={morpheusImg} className='img-fluid' />
+            <div className="col-sm">
+              <button className='btn'>Manteria aplicação aguardando uma melhora do mercado.</button>
             </div>
-            <div className='col align-self-center'>
-              <button type='submit' className='btn colorb'>NÃO</button>
+            <div className="col-sm">
+              <button className='btn'>Aumentaria a aplicação para aproveitar as oportunidades do mercado.</button>
             </div>
           </div>
-
+          <ProgressBar className='progressBar' now={now} label={`${now}%`} variant='success' />
         </div>
       </div>
     </div>

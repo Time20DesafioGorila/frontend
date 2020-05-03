@@ -2,13 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import menuImg from '../../assets/menu.png'
-import morpheusImg from '../../assets/matrix-morpheus.png'
 
 import './styles.css'
 
-export default function Matrix() {
+export default function Suitability() {
   return (
-    <div className='teste-matrix'>
+    <div className='teste-suitability'>
       <div className='container fluid'>
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="#">Menu</a>
@@ -33,20 +32,12 @@ export default function Matrix() {
           </div>
         </nav>
 
-        <div className='matrix text-center'>
-          <h1>Quer participar do ranking de investidores?</h1>
-          <div className='row'>
-            <div className='col align-self-center'>
-              <button type='submit' className='btn colorv'>SIM</button>
-            </div>
-            <div className='col align-self-center'>
-              <img src={morpheusImg} className='img-fluid' />
-            </div>
-            <div className='col align-self-center'>
-              <button type='submit' className='btn colorb'>NÃO</button>
-            </div>
-          </div>
-
+        <div className='suitability text-center'>
+          <h1>Teste de Suitability</h1>
+          <h2>Avaliar o seu perfil de investidor.</h2>
+          <Link>
+            <button type='submit' className='btn'>COMEÇAR</button>
+          </Link>
         </div>
       </div>
     </div>

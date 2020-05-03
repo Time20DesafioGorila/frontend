@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap');
-.matrix{
+.suitability{
   margin-left: auto;
   margin-right: auto;
 }
-.matrix h1{
+.suitability h1{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -12,36 +12,30 @@
   color: #00FFFF;
   font-size: 50px;
 }
-.matrix .colorb{
-  width: 100%;
-  max-width: 150px;
-  height: 45.29px;
-  background: #2F80ED;
-  box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.147481);
-  border-radius: 22.6449px;
-  font-family: Ubuntu;
+.suitability h2{
+  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 25px;
-  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 24px;
+  text-align: center;
   color: #FFFFFF;
+  margin-top: 90px;
 }
-.matrix .colorv{
+.suitability button{
   width: 100%;
-  max-width: 150px;
+  max-width: 169px;
   height: 45.29px;
-  background: #EB5757;
+  background: #15C2C2;
   box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.147481);
   border-radius: 22.6449px;
-  font-family: Ubuntu;
+  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 25px;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 30px;
   text-transform: uppercase;
+
   color: #FFFFFF;
-}
-.matrix img{
-  width: 400px;
 }

@@ -2,13 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import menuImg from '../../assets/menu.png'
-import morpheusImg from '../../assets/matrix-morpheus.png'
+import objetivoImg from '../../assets/objetivo.png'
+import { ProgressBar } from 'react-bootstrap'
 
 import './styles.css'
 
-export default function Matrix() {
+export default function Question() {
+  const now = 20
   return (
-    <div className='teste-matrix'>
+    <div className='teste-question'>
       <div className='container fluid'>
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="#">Menu</a>
@@ -33,20 +35,27 @@ export default function Matrix() {
           </div>
         </nav>
 
-        <div className='matrix text-center'>
-          <h1>Quer participar do ranking de investidores?</h1>
-          <div className='row'>
-            <div className='col align-self-center'>
-              <button type='submit' className='btn colorv'>SIM</button>
+        <div className='question text-center'>
+          <p>Perfil de Investidor</p>
+          <img src={objetivoImg} className='img-fluid' />
+          <h2>Qual o objetivo desse investimento?</h2>
+          <div className="row">
+            <div className="col-sm">
+              <button className='btn'>Preservação do capital para não perder valor ao longo do tempo.</button>
             </div>
-            <div className='col align-self-center'>
-              <img src={morpheusImg} className='img-fluid' />
-            </div>
-            <div className='col align-self-center'>
-              <button type='submit' className='btn colorb'>NÃO</button>
+            <div className="col-sm">
+              <button className='btn'>Aumento gradual do capital ao longo do tempo, assumindo riscos moderados.</button>
             </div>
           </div>
-
+          <div className="row">
+            <div className="col-sm">
+              <button className='btn'>Aumento do capital acima da taxa de retorno média do mercado, mesmo que isso implique assumir riscos de perdas elevadas.</button>
+            </div>
+            <div className="col-sm">
+              <button className='btn'>Obter no curto prazo retornos elevados e significativamente acima da taxade retorno média do mercado, assumindo riscos elevados</button>
+            </div>
+          </div>
+          <ProgressBar className='progressBar' now={now} label={`${now}%`} variant='success' />
         </div>
       </div>
     </div>

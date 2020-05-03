@@ -2,13 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import menuImg from '../../assets/menu.png'
-import morpheusImg from '../../assets/matrix-morpheus.png'
+import caixaImg from '../../assets/caixa.png'
+import { ProgressBar } from 'react-bootstrap'
 
 import './styles.css'
 
-export default function Matrix() {
+export default function Question() {
+  const now = 10
   return (
-    <div className='teste-matrix'>
+    <div className='teste-question'>
       <div className='container fluid'>
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="#">Menu</a>
@@ -33,20 +35,29 @@ export default function Matrix() {
           </div>
         </nav>
 
-        <div className='matrix text-center'>
-          <h1>Quer participar do ranking de investidores?</h1>
-          <div className='row'>
-            <div className='col align-self-center'>
-              <button type='submit' className='btn colorv'>SIM</button>
+        <div className='question text-center'>
+          <p>Perfil de Investidor</p>
+          <h1>Olá Jão, sejá bem vindo!</h1>
+          <h2>Responda ao questionario para definir seu perfil de investidor.</h2>
+          <img src={caixaImg} className='img-fluid' />
+          <h2>Por quanto tempo você pretende deixar seu dinheiro investido?</h2>
+          <div className="row">
+            <div className="col-sm">
+              <button className='btn'>Menos de 6 meses</button>
             </div>
-            <div className='col align-self-center'>
-              <img src={morpheusImg} className='img-fluid' />
-            </div>
-            <div className='col align-self-center'>
-              <button type='submit' className='btn colorb'>NÃO</button>
+            <div className="col-sm">
+              <button className='btn'>6 meses e 1 ano</button>
             </div>
           </div>
-
+          <div className="row">
+            <div className="col-sm">
+              <button className='btn'>1 ano e 3 anos</button>
+            </div>
+            <div className="col-sm">
+              <button className='btn'>+ 3 anos</button>
+            </div>
+          </div>
+          <ProgressBar className='progressBar' now={now} label={`${now}%`} variant='success' />
         </div>
       </div>
     </div>

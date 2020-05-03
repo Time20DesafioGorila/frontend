@@ -72,16 +72,3 @@
 .office hr{
   border: 1px solid #FFFFFF;
 }
-.teste-office{
-  background: url('../../assets/meio-circulo-azul.png')top left,
-  url('../../assets/meio-circulo-amarelo-vermelho.png') top right;
-  background-repeat: no-repeat;
-  background-position-y: 6em;
-}
-@media (max-width: 1357px) {
-  .teste-office{
-    background-image: none;
-  }
-  
-
-}
