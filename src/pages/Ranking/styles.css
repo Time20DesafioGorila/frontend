@@ -2,65 +2,54 @@
 .ranking {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 35px;
-}
-.row p{
-  margin-bottom: -40px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 39px;
-  color: #00FFFF;
-}
-.coroa{
-  margin-bottom: -150px;
-}
-.coroa p{
-  margin-bottom: -80px;
-}
-.coroamedia {
-  margin-top: -140px;
-}
-.coroamedia p {
-  margin-top: -40px;
-  color: #FFFFFF;
 }
 .ranking input{
   margin-left: auto;
   margin-right: auto;
-  background: rgba(21, 194, 194, 0.22);
+  background: rgba(21, 194, 194, 0.10);
   border-radius: 22.6449px;
   height: 45.29px;
   max-width: 500px;
   width: 100%;
-  margin-top: 80px;   
-	background-image:url('../../assets/lupa.png');
-  background-repeat:no-repeat;
-  background-position-x: right;
+  margin-top: 20px;   
 }
-.nome-principal{
-  margin-top: -50px;
+.ranking .colocacao p + img{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 39px;
+  color: #363432;
+  margin-right: -60px;
 }
-.pontuacao{
-  margin-top: 35px;
-}
-.ranking img{
-  margin-bottom: 12px;
-}
-.colocacao{
-  max-width: 350px;
+.ranking .colocacao{
+  max-width: 400px;
   width: 100%;
   height: 40px;
   margin-left: auto;
   margin-right: auto;
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0px 4px 99px rgba(0, 255, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 80px;
   margin-top: 10px;
 }
+.ranking img{
+  margin-bottom: 5px;
+}
+.ranking .colocacao img{
+  margin-left: -2px;
+}
+.ranking p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 39px;
+  color: #363432;
+  margin-bottom: -0.5px;
+}
 @media (max-width: 1357px) {
-  .colocacao{
+  .ranking .colocacao{
     max-width: 300px;
   }
 }

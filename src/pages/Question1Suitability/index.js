@@ -3,8 +3,6 @@ import caixaImg from '../../assets/caixa.png'
 import { ProgressBar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-import './styles.css'
-
 export default function Question () {
   const now = 10
   return (

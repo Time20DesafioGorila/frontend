@@ -1,8 +1,8 @@
-.office{
+.graphic{
   margin-left: auto;
   margin-right: auto;
 }
-.office h1{
+.graphic h1{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -11,20 +11,20 @@
   
   text-align: left;
   margin-top: 30px;
-  color: #00FFFF;
+  color: rgba(0, 0, 0, 0.8);
 }
-.office h2{
+.graphic h2{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
   text-align: left;
-  color: rgba(0, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   margin-top: 45px;
   margin-bottom: 45px;
 }
-.office table{
+.graphic table{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -34,7 +34,7 @@
   border: none;
   border-style: none;
 }
-.office button{
+.graphic button{
   width: 100%;
   max-width: 169px;
   height: 45.29px;
@@ -57,18 +57,18 @@
 .color-table-vermelho{
   color: #FF0000;
 }
-.office img{
+.graphic img{
   margin-top: 35px;
 }
-.office p{
+.graphic p{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
   margin-top: 5px;
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
 }
-.office hr{
+.graphic hr{
   border: 1px solid #FFFFFF;
 }

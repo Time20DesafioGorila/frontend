@@ -12,7 +12,7 @@
   
   text-align: left;
   margin-top: 45px;
-  color: #00FFFF;
+  color: rgba(0, 0, 0, 0.8);
 }
 .office h2{
   font-family: Montserrat;
@@ -21,7 +21,7 @@
   font-size: 22px;
   line-height: 27px;
   text-align: left;
-  color: rgba(0, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   margin-top: 45px;
   margin-bottom: 45px;
 }
@@ -31,32 +31,15 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
   border: none;
   border-style: none;
 }
-.office button{
-  width: 100%;
-  max-width: 169px;
-  height: 45.29px;
-  background: #15C2C2;
-  box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.147481);
-  border-radius: 22.6449px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-  margin-top: 25px;
-  text-transform: uppercase;
-
-  color: #FFFFFF;
+.office .color-table-verde{
+  color: #007A56;
 }
-.color-table-verde{
-  color: #24FF00;
-}
-.color-table-vermelho{
-  color: #FF0000;
+.office .color-table-vermelho{
+  color: #E20000;
 }
 .office img{
   margin-top: 35px;
@@ -68,5 +51,5 @@
   font-size: 14px;
   line-height: 17px;
   margin-top: 5px;
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
 }

@@ -10,7 +10,7 @@
   font-size: 32px;
   line-height: 39px;
   margin-top: 45px;
-  color: #00FFFF;
+  color: rgba(0, 0, 0, 0.8);
 }
 .addinvest form{
   max-width: 800px;

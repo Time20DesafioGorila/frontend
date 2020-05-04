@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom'
 import objetivoImg from '../../assets/objetivo.png'
 import { ProgressBar } from 'react-bootstrap'
 
-import './styles.css'
-
 export default function Question () {
   const now = 80
   return (

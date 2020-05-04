@@ -1,29 +1,32 @@
-.home{
+.logon{
   margin-left: auto;
   margin-right: auto;
+  background-image: url('../../assets/circulo.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -190px;
 }
-.home h1{
+.logon h1{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 39px;
-  color: #00FFFF;
+  color: rgba(0, 0, 0, 0.8);
   margin-top: 150px;
 }
-.home input{
+.logon input{
   width: 350px;
   height: 45.29px;
-  background: rgba(21, 194, 194, 0.18);
   border-radius: 22.6449px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #00FFFF;
+  color: rgba(0, 0, 0, 0.8);
 }
-.home button{
+.logon button{
   width: 100%;
   max-width: 350px;
   height: 45.29px;
@@ -40,36 +43,23 @@
 
   color: #FFFFFF;
 }
-.home p{
+.logon p{
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
   font-size: 22px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
   margin-top: 20px;
 
 
 }
-.home label{
+.logon label{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
-  color: #00FFFF;
-
-}
-
-.teste-logon{
-  background-image: url('../../assets/circulo.png');
-  background-repeat: no-repeat;
-  background-position-y: -5.5cm;
-  background-position-x: 4.5cm;
-}
-@media (max-width: 1357px) {
-  .teste-logon{
-    background-image: none;
-  }
+  color: rgba(0, 0, 0, 0.8);
 
 }

@@ -8,7 +8,7 @@
   font-weight: bold;
   font-size: 32px;
   line-height: 39px;
-  color: #00FFFF;
+  color: rgba(0, 0, 0, 0.8);
   margin-top: 50px;
 }
 .newaccount input{
@@ -21,7 +21,7 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #00FFFF;
+  color: rgba(0, 0, 0, 0.8);
   margin: 0;
 }
 .newaccount button{
@@ -36,9 +36,7 @@
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-
   text-transform: uppercase;
-
   color: #FFFFFF;
 }
 .newaccount p{
@@ -47,7 +45,7 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
   margin-top: 20px;
 
 }
@@ -57,7 +55,7 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
-  color: #00FFFF;
+  color: rgba(0, 0, 0, 0.8);
   margin: 0;
 
 }

@@ -1,40 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
-.logon-welcome h1{
+.home{
+  background-image: url('../../assets/circulo.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+.home h1{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
   line-height: 51px;
-  color: #00FFFF;
+  color: rgba(0, 0, 0, 0.8);
   margin-top: 200px;
 }
-.logon-welcome h2{
+.home h2{
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 37px;  
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
   margin-top: 35px;
 }
-.logon-welcome p{
+.home p{
   font-family: Montserrat;
   font-style: normal;
   font-weight: 800;
   font-size: 22px;
   line-height: 27px; 
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.8);
   margin-top: 35px;
 }
-.home-teste{
-  background-image: url('../../assets/circulo.png');
-  background-repeat: no-repeat;
-  background-position-y: -10cm;
-  background-position-x: 4.5cm;
+.home img{
+  display: none;
 }
-@media (max-width: 1357px) {
-  .home-teste{
+@media (max-width: 690px){
+  .home{
     background-image: none;
   }
-
+  .home img{
+    display: inline;
+    width: 200px;
+    margin-bottom: -200px;
+  }
 }
+
+
