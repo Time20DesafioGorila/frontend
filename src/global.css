@@ -15,7 +15,12 @@ body{
   background-position-y: 6em;
   background-color: rgba(0, 64, 45, 0.95);
 }
+a{
+  color: #00FFFF;
+  text-decoration: none;
+}
 .navbar{
+  text-decoration: none;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: bold;
@@ -24,9 +29,11 @@ body{
   text-align: center;
 }
 .nav-link{
+  text-decoration: none;
   color: #00FFFF;
 }
 .navbar-brand{
+  text-decoration: none;
   color: #FFFFFF;
 }
 @media (max-width: 1357px) {

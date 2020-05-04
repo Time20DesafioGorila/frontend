@@ -6,6 +6,7 @@ import userImg from '../../assets/user.png'
 import usermedioImg from '../../assets/usermedio.png'
 import coroaImg from '../../assets/coroa.png'
 import userpequenoImg from '../../assets/userpequeno.png'
+import youinvest from '../../assets/youinvest.png'
 
 import './styles.css'
 
@@ -15,12 +16,14 @@ export default function Ranking() {
       <div className='container fluid'>
         <nav class="navbar navbar-expand-lg">
           <Link to='/office'>
-            <a class="navbar-brand">You invest</a>
+            <a class="navbar-brand">
+              <img src={youinvest} className='img-fluid' width='200' />
+            </a>
           </Link>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <img src={menuImg} class="navbar-toggler-icon" />
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-sm-start mt-5" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <Link to='/office'>
