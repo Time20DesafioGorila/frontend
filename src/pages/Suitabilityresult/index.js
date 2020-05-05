@@ -50,14 +50,17 @@ export default function Suitabilityresult() {
             <div className='col'>
               <p>Seu perfil é:</p>
               <h1>Conservador</h1>
+              <hr />
             </div>
             <div className='col'>
               <p>Esse tipo de investidor prioriza a segurança em suas aplicações.</p>
               <p>Em sua diversificação de investimentos, o conservador deve manter <br /> a maior parte da sua carteira de investimentos em produtos de baixo risco.</p>
+              <hr />
             </div>
             <div className='col'>
               <h1>Investimentos recomendados</h1>
               <p>Tesouro Direto<br /> CDB<br /> LC<br /> LCI/LCA<br /> Fundos de renda fixa</p>
+              <hr />
             </div>
           </div>
           <div className='row'>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import morpheusImg from '../../assets/matrix-morpheus.png'
+import youinvest from '../../assets/youinvest.png'
 
 import './styles.css'
 
@@ -9,6 +10,7 @@ export default function Matrix() {
   return (
     <div className='container fluid'>
       <div className='matrix text-center'>
+        <img src={youinvest} className='img-fluid you' />
         <h1>Quer participar do ranking de investidores?</h1>
         <div className='row'>
           <div className='col align-self-center'>

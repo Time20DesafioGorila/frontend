@@ -72,3 +72,9 @@
 .graphic hr{
   border: 1px solid #FFFFFF;
 }
+@media (max-width: 690px){
+  .graphic img{
+    margin-top: 5px;
+    width: 45px;
+  }
+}
