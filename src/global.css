@@ -9,7 +9,7 @@ body{
   font: 400 14px Roboto, sans-serif;
   background: url('../src/assets/meio-circulo-azul.png') left, 
   url('../src/assets/meio-circulo-amarelo-vermelho.png') right;
-  background-position-y: 45px;
+  background-position-y: center;
   background-repeat: no-repeat;
   background-color:#EDEDED;
 }
@@ -22,9 +22,9 @@ a{
   font-family: Ubuntu;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 32px;
   line-height: 21px;
-  text-align: center;
+  margin-left: 90px;
 }
 .nav-link{
   text-decoration: none;
@@ -89,5 +89,10 @@ a{
 @media (max-width: 690px){
   body{
     background-image: none;
+  }
+  .navbar{
+    margin-left: 0;
+    text-align: center;
+    font-size: 20px;
   }
 }
