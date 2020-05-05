@@ -34,3 +34,22 @@
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.suitabilityresult hr{
+ display: none;
+}
+
+@media (max-width: 690px){
+  .suitabilityresult h1{
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .suitabilityresult hr{
+    display: block;
+    border: 0.8px solid #FFFFFF;
+  }
+  .suitabilityresult p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+}

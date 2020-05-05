@@ -48,3 +48,13 @@
 .addinvest input{
   width: 100%;
 }
+@media (max-width: 690px){
+  .addinvest h1{
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .addinvest form{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
