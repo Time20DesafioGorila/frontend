@@ -1,5 +1,7 @@
-const axios = require("axios");
+import axios from 'axios';
+import 'dotenv' 
 
-const api = axios.create({ baseURL: "http://3.17.145.171:8080" });
+const {BACKEND_HOST, BACKEND_PORT} = process.env;
+const api = axios.create({ baseURL: `${BACKEND_HOST}:${BACKEND_PORT}` });
 
 export default api;
