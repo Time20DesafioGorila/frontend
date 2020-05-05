@@ -22,9 +22,10 @@ a{
   font-family: Ubuntu;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 21px;
-  margin-left: 90px;
+  margin-left: 85px;
+  text-decoration: none;
 }
 .nav-link{
   text-decoration: none;

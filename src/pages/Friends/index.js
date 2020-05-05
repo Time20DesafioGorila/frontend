@@ -42,7 +42,7 @@ export default function Friends() {
                             <li class="nav-item">
                                 <Link to="/office">
                                     <a class="nav-link">
-                                        Home
+                                    Carteira
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </Link>
@@ -76,8 +76,6 @@ export default function Friends() {
                                 <img src={facebookimg} className="img-fluid" />
                             </a>
                         </div>
-                    </div>
-                    <div className="row">
                         <div className="col">
                             <a
                                 href="https://twitter.com/explore"
@@ -86,8 +84,6 @@ export default function Friends() {
                                 <img src={twitterimg} className="img-fluid" />
                             </a>
                         </div>
-                    </div>
-                    <div className="row">
                         <div className="col">
                             <a
                                 href="https://www.instagram.com/"

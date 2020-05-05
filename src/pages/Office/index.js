@@ -26,7 +26,7 @@ export default function Office() {
           <ul class="navbar-nav">
             <li class="nav-item">
               <Link to='/office'>
-                <a class="nav-link">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link">Carteira<span class="sr-only">(current)</span></a>
               </Link>
             </li>
             <li class="nav-item">
