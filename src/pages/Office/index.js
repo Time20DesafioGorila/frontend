@@ -49,7 +49,27 @@ export default function Office() {
       </nav>
 
       <div className='office text-center'>
-        <h1>Olá João,</h1>
+        <h1>Olá João!</h1>
+        <div className='row'>
+          <div className='col'>
+            <Link to='/graphic'>
+              <img src={docImg} className='img-fluid' />
+              <p>Gráfico da Carteira</p>
+            </Link>
+          </div>
+          <div className='col'>
+            <Link to='/addinvest'>
+              <img src={coracaoImg} className='img-fluid' />
+              <p>Adicionar Investimento</p>
+            </Link>
+          </div>
+          <div className='col'>
+            <Link to='/matrix'>
+              <img src={trofeuImg} className='img-fluid' />
+              <p>Ranking</p>
+            </Link>
+          </div>
+        </div>
         <h2>Investimentos</h2>
         <div className='table-responsive-xl table-striped table-bordered'>
           <table className='table'>
@@ -87,27 +107,6 @@ export default function Office() {
             </tbody>
           </table>
         </div>
-        <div className='row'>
-          <div className='col'>
-            <Link to='/graphic'>
-              <img src={docImg} className='img-fluid' />
-              <p>Gráfico da Carteira</p>
-            </Link>
-          </div>
-          <div className='col'>
-            <Link to='/addinvest'>
-              <img src={coracaoImg} className='img-fluid' />
-              <p>Adicionar Investimento</p>
-            </Link>
-          </div>
-          <div className='col'>
-            <Link to='/matrix'>
-              <img src={trofeuImg} className='img-fluid' />
-              <p>Ranking</p>
-            </Link>
-          </div>
-        </div>
-
       </div>
     </div>
   )

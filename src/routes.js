@@ -6,6 +6,7 @@ import Logon from './pages/Logon'
 import NewAccount from './pages/NewAccount'
 import Office from './pages/Office'
 import Graphic from './pages/Graphic'
+import Graphic2 from './pages/Graphic/index2'
 import Matrix from './pages/Matrix'
 import Suitability from './pages/Suitability'
 import Question1Suitability from './pages/Question1Suitability'
@@ -31,6 +32,7 @@ export default function Routes () {
         <Route path='/new_account' component={NewAccount} />
         <Route path='/office' component={Office} />
         <Route path='/graphic' component={Graphic} />
+        <Route path='/graphic2' component={Graphic2} />
         <Route path='/matrix' component={Matrix} />
         <Route path='/suitability' component={Suitability} />
         <Route path='/question-1-suitability' component={Question1Suitability} />

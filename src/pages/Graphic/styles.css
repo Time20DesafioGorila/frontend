@@ -1,6 +1,7 @@
 .graphic{
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px;
 }
 .graphic h1{
   font-family: Montserrat;
@@ -8,9 +9,8 @@
   font-weight: bold;
   font-size: 32px;
   line-height: 39px;
-  
   text-align: left;
-  margin-top: 30px;
+  margin-top: 10px;
   color: rgba(0, 0, 0, 0.8);
 }
 .graphic h2{
@@ -21,8 +21,8 @@
   line-height: 27px;
   text-align: left;
   color: rgba(0, 0, 0, 0.8);
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .graphic table{
   font-family: Montserrat;

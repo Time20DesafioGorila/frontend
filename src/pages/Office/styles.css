@@ -9,9 +9,8 @@
   font-weight: bold;
   font-size: 32px;
   line-height: 39px;
-  
   text-align: left;
-  margin-top: 45px;
+  margin-top: 20px;
   color: rgba(0, 0, 0, 0.8);
 }
 .office h2{
@@ -22,8 +21,8 @@
   line-height: 27px;
   text-align: left;
   color: rgba(0, 0, 0, 0.8);
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 .office table{
   font-family: Montserrat;

@@ -69,43 +69,18 @@ export default function Graphic() {
           <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs">
               <li class="nav-item">
-                <a class="nav-link active" href="#grafico">Gráfico</a>
+                <Link to='/graphic'>
+                  <a class="nav-link">Gráfico</a>
+                </Link>
               </li>
               <li class="nav-item">
-                <Link to='/graphic2'>
-                  <a class="nav-link">Patrimônio</a>
-                </Link>
+                <a class="nav-link active" href="#patrimonio">Patrimônio</a>
               </li>
             </ul>
           </div>
           <div class="card-body" id='grafico'>
-            <h5 class="card-title">Gráfico</h5>
-            <p class="card-text"> <Chart
-              style={{
-                maxWidth: 800,
-                fontWeight: 'bold',
-                fontSize: 45,
-                marginLeft: 'auto',
-                marginRight: 'auto'
-              }}
-              width={'100%'}
-              height={'300px'}
-              chartType='PieChart'
-              loader={<div>Loading Chart</div>}
-              data={[
-                ['Total', 'investments'],
-                ['BCFF11 - FII BC FFII', 5],
-                ['POUPANÇA', 1],
-                ['BOVA11', 1]
-              ]}
-              options={{
-                title: 'Meus Investimentos',
-                legend: {
-                  position: 'bottom',
-                }
-              }}
-              rootProps={{ 'data-testid': '1' }}
-            /></p>
+            <h5 class="card-title">Patrimônio</h5>
+            <p class="card-text"><h3>R$ 3.400,00</h3></p>
           </div>
         </div>
         <hr />
