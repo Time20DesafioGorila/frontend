@@ -26,7 +26,7 @@ export default function Ranking() {
           <ul class="navbar-nav">
             <li class="nav-item">
               <Link to='/office'>
-                <a class="nav-link">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link">Carteira<span class="sr-only">(current)</span></a>
               </Link>
             </li>
             <li class="nav-item">
@@ -63,15 +63,15 @@ export default function Ranking() {
           </div>
         </div>
         <div className='row'>
-          <div className='col'>
+          <div className='col' id='img'>
             <p>2</p>
             <img src={usermedioImg} className='img-fluid' />
             <p>Jão</p>
             <p>2153</p>
           </div>
-          <div className='col'>
+          <div className='col' id='img'>
             <p>3</p>
-            <img src={usermedioImg} className='img-fluid' />
+            <img src={usermedioImg} className='img-fluid'/>
             <p>Jão</p>
             <p>2153</p>
           </div>

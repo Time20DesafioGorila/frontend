@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap');
-.ranking {
-  margin-left: auto;
-  margin-right: auto;
-}
 .ranking input{
   margin-left: auto;
   margin-right: auto;
@@ -20,7 +16,6 @@
   font-size: 22px;
   line-height: 39px;
   color: #363432;
-  margin-right: -60px;
 }
 .ranking .colocacao{
   max-width: 400px;
@@ -51,5 +46,12 @@
 @media (max-width: 1357px) {
   .ranking .colocacao{
     max-width: 300px;
+    margin-bottom: 25px;
+  }
+  .ranking #img{
+    margin-top: -145px;
+  }
+  .ranking #img p{
+    margin-top: -10px;
   }
 }
